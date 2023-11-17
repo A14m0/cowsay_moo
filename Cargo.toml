@@ -1,0 +1,11 @@
+[package]
+name = "cowsay_moo"
+version = "0.2.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = {version="4.4.7", features=["derive", "cargo"]}
+divrem = "1.0.0"
+terminal_size = "0.3.0"
